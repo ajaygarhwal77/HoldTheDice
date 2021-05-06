@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background-repeat: no-repeat;
+    height: 991px;
+    position: relative;
+    display: flex;
+    background-color: #FFFFFF;
+    background-image: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );
+    transition: all 0.75s;
+}
+.player1area{
+    background-color: white;
+    opacity: 0.4;
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 22%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  transition: all 0.75s;
+  margin-right: -50px;
+  -webkit-box-shadow: -15px 17px 21px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: -15px 17px 21px 0px rgba(0,0,0,0.62);
+box-shadow: -15px 17px 21px 0px rgba(0,0,0,0.62);
+
+}
+.player2area{
+    background-color: white;
+    opacity: 0.4;
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: -70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  transition: all 0.75s;
+  -webkit-box-shadow: 14px 17px 21px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 14px 17px 21px 0px rgba(0,0,0,0.62);
+box-shadow: 14px 17px 21px 0px rgba(0,0,0,0.62);
+}
+
+
+.name{
+  position: relative;
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: black;
+  opacity: unset;
+  transition: all 0.75s;
+}
+.score{
+  text-align: center;
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: -20px;
+  transition: all 0.75s;
+}
+.currentscorearea{
+  background-color: cyan;
+  color: black;
+  width: 320px;
+  height: 170px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top:100px;
+  margin-left: 90px;
+  font-size: 40px;
+  transition: all 0.75s;
+}
+.currentscore{
+  margin-top: -40px;
+  font-size: 70px;
+  transition: all 0.75s;
+}
+.dicedisplay{
+  width: 100px;
+  height: 100px;
+  margin-top: 350px;
+  z-index: 10;
+  margin-left: -130px;
+  transition: all 0.75s;
+  border-radius: 20px;
+}
+.newgame{
+  font-family: 'Nunito', sans-serif;
+  width: 150px;
+  height: 50px;
+  margin-top: 260px;
+  margin-left: -25px;
+  font-size: 20px;
+  z-index: 10;
+  font-weight: 600;
+  transition: all 0.75s;
+}
+.rolldice{
+  font-family: 'Nunito', sans-serif;
+  width: 150px;
+  height: 50px;
+  margin-top: 570px;
+  margin-left: -125px;
+  z-index: 10;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.75s;
+}
+.hold{
+  width: 150px;
+  height: 50px;
+  margin-top: 670px;
+  margin-left: -150px;
+  z-index: 10;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  transition: all 0.75s;
+}
+.btn{
+  background: linear-gradient(to right, #494141,#000000,#464b42);
+  border-style: double;
+  border-radius: 40px;
+  transition: all 0.75s;
+  color: palevioletred;
+}
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: all 0.15s;
+}
+.activeplayer{
+  opacity: 0.7;
+  transition: all 1s;
+}
+.winner{
+  background-color: #141314;
+  border-color: #ff0040;
+  opacity: 1;
+  color:  #ff0040;
+}
+.winningheading{
+  color:#ff0040 ;
+}
+.hidden{
+  display: none;
+}
+.genralinstructions{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: white;
+  width: 1200px;
+  font-size: 30px;
+  height: 800px;
+  margin-top: 100px;
+  margin-left: -1100px;
+  z-index: 20;
+  font-weight: 700;
+  border-radius: 10px;
+  background: linear-gradient(to bottom left, #000000,#4f4e4e,#7a7a7a);
+  -webkit-box-shadow: -13px 17px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -13px 17px 23px 0px rgba(0,0,0,0.75);
+box-shadow: -13px 17px 23px 0px rgba(0,0,0,0.75);
+}
+.closeinstructions{
+  margin-left: 1159px;
+  width: 40px;
+  height: 40px;
+  margin-top: -80px;
+  border-width: 0px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.heading2ininstructions{
+  margin-top: -40px;
+  margin-left: 30px;
+  font-size: 35px;
+}
+.paraininstructions{
+  margin-top: -10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.headingofinstructions{
+  margin-top: -20px;
+}
